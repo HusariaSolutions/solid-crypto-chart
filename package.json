@@ -1,0 +1,48 @@
+{
+  "name": "solid-crypto-chart",
+  "version": "0.0.1",
+  "author": "Husaria Solutions",
+  "license": "MIT",
+  "description": "Crypto chart for SolidJS using Binance API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HusariaSolutions/solid-crypto-chart.git"
+  },
+  "main": "dist/index/index.common.js",
+  "module": "dist/index/index.module.js",
+  "types": "dist/index/index.d.ts",
+  "exports": {
+    ".": {
+      "solid": "./dist/index/index.jsx",
+      "import": "./dist/index/index.module.js",
+      "browser": "./dist/index/index.module.js",
+      "require": "./dist/index/index.common.js",
+      "node": "./dist/index/index.common.js"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "npx jest"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@types/jest": "^28.1.4",
+    "jest-canvas-mock": "^2.4.0",
+    "jest-environment-jsdom": "^28.1.2",
+    "node-fetch": "^3.2.6",
+    "resize-observer-polyfill": "^1.5.1",
+    "solid-jest": "^0.2.0",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "lightweight-charts": "^3.8.0",
+    "rollup": "^2.75.7",
+    "rollup-preset-solid": "^1.4.0",
+    "solid-js": "^1.4.6",
+    "solid-testing-library": "^0.3.0"
+  }
+}
