@@ -1,6 +1,6 @@
 {
   "name": "@husaria-solutions/solid-crypto-chart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Husaria Solutions",
   "license": "MIT",
   "description": "Crypto chart for SolidJS using Binance API",
