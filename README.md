@@ -32,7 +32,7 @@ yarn add @husaria-solutions/solid-crypto-chart
 import { CryptoChart } from '@husaria-solutions/solid-crypto-chart'
 
 function Chart() {
-  return <CryptoChart pair="BTCBUSD" />
+  return <CryptoChart pair="BTCBUSDT" />
 }
 ```
 
@@ -52,7 +52,7 @@ function Chart() {
     <td class="tg-0pky">pair</td>
     <td class="tg-0pky">No</td>
     <td class="tg-0pky">String</td>
-    <td class="tg-0pky">BTCBUSD<br>Please refer binance api for more pairs<br><a href="https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md">binance rest api</a></td>
+    <td class="tg-0pky">BTCBUSDT<br>Please refer binance api for more pairs<br><a href="https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md">binance rest api</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">interval</td>
