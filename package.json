@@ -1,12 +1,12 @@
 {
-  "name": "@HusariaSolutions/solid-crypto-chart",
+  "name": "@husaria-solutions/solid-crypto-chart",
   "version": "0.0.1",
   "author": "Husaria Solutions",
   "license": "MIT",
   "description": "Crypto chart for SolidJS using Binance API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HusariaSolutions/solid-crypto-chart.git"
+    "url": "git+https://github.com/HusariaSolutions/solid-crypto-chart.git"
   },
   "main": "dist/index/index.common.js",
   "module": "dist/index/index.module.js",
@@ -44,5 +44,19 @@
     "rollup-preset-solid": "^1.4.0",
     "solid-js": "^1.4.6",
     "solid-testing-library": "^0.3.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/HusariaSolutions/solid-crypto-chart/issues"
+  },
+  "homepage": "https://github.com/HusariaSolutions/solid-crypto-chart#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "solidjs",
+    "crypto",
+    "chart",
+    "binance",
+    "tradeview"
+  ]
 }
