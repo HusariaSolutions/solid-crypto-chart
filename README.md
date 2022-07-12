@@ -17,19 +17,19 @@ npm start
 ### NPM
 
 ```npm
-npm i @husaria-solutions/solid-crypto-chart
+npm i @HusariaSolutions/solid-crypto-chart
 ```
 
 ### Yarn
 
 ```npm
-yarn add @husaria-solutions/solid-crypto-chart
+yarn add @HusariaSolutions/solid-crypto-chart
 ```
 
 ## Usage
 
 ```typescript
-import { CryptoChart } from '@husaria-solutions/solid-crypto-chart'
+import { CryptoChart } from '@HusariaSolutions/solid-crypto-chart'
 
 function Chart() {
   return <CryptoChart pair="BTCBUSD" />

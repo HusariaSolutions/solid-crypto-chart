@@ -26,3 +26,5 @@ yarn-error.log*
 
 package.lock
 yarn.lock
+
+!dist
