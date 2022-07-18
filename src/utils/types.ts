@@ -10,7 +10,7 @@ import {
 export type KlinesRestData = [number, string, string, string, string, string]
 
 export type KlinesWebSocketData = {
-  k: { T: number; o: string; c: string; h: string; l: string; v: string; V: string }
+  k: { t: number; o: string; c: string; h: string; l: string; v: string; V: string }
 }
 
 export type HistogramConfig = DeepPartial<HistogramStyleOptions & SeriesOptionsCommon>

@@ -37,7 +37,7 @@ export function klinesRestDataAdaptor(data: KlinesRestData): CandlestickData & {
 
 export function klinesWebSocketDataAdaptor(data: KlinesWebSocketData): CandlestickData & { value: number } {
   const {
-    k: { T, o, c, h, l, v, V },
+    k: { t, o, c, h, l, v, V },
   } = data
 
   return {
@@ -45,7 +45,7 @@ export function klinesWebSocketDataAdaptor(data: KlinesWebSocketData): Candlesti
     high: parseFloat(h),
     low: parseFloat(l),
     close: parseFloat(c),
-    time: (T / 1000) as any,
+    time: (t / 1000) as any,
     value: (parseFloat(v) + parseFloat(V)) / 2,
     color: o < c ? '#005a40' : '#82112b',
   }
