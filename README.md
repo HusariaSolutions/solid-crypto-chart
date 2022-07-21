@@ -32,7 +32,7 @@ yarn add @husaria-solutions/solid-crypto-chart
 import { CryptoChart } from '@husaria-solutions/solid-crypto-chart'
 
 function Chart() {
-  return <CryptoChart pair="BTCBUSDT" />
+  return <CryptoChart pair="BTCUSDT" />
 }
 ```
 
@@ -50,15 +50,15 @@ function Chart() {
 <tbody>
   <tr>
     <td class="tg-0pky">pair</td>
-    <td class="tg-0pky">No</td>
+    <td class="tg-0pky">Yes</td>
     <td class="tg-0pky">String</td>
-    <td class="tg-0pky">BTCBUSDT<br>Please refer binance api for more pairs<br><a href="https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md">binance rest api</a></td>
+    <td class="tg-0pky">-<br>Please refer binance api for more pairs<br><a href="https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md">binance rest api</a></td>
   </tr>
   <tr>
     <td class="tg-0pky">interval</td>
-    <td class="tg-0pky">No</td>
-    <td class="tg-0pky">String enum (Binance values, like 1m, 15m, 1H, 1D)</td>
-    <td class="tg-0pky">1m</td>
+    <td class="tg-0pky">Yes</td>
+    <td class="tg-0pky">String enum (Binance values, like 1m, 15m, 1h, 1d, check <b>types.ts</b>)</td>
+    <td class="tg-0pky">-</td>
   </tr>
   <tr>
     <td class="tg-0pky">candleStickConfig</td>
