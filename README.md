@@ -153,7 +153,7 @@ function Chart() {
 
 ## Author
 
-<img alt="Husaria Solutions banner" src="https://husariasolutions.com/img/husaria-logo-with-name-small.jpg" />
+<img alt="Husaria Solutions banner" src="https://husariasolutions.com/img/husaria-logo-with-name-small.webp" />
 
 [https://husariasolutions.com](https://husariasolutions.com)
 
