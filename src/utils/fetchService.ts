@@ -5,9 +5,7 @@ import { REST_URL, WS_URL } from './constants'
 import { CryptoChartInterval, KlinesRestData } from './types'
 
 export const fetchKlinesRestData = async (symbol: string, interval: CryptoChartInterval) => {
-  const result = await fetch(`${REST_URL}symbol=${symbol}&interval=${interval}`, {
-    headers: { 'Content-Type': 'application/json' },
-  })
+  const result = await fetch(`${REST_URL}symbol=${symbol}&interval=${interval}`)
   const data: KlinesRestData[] = await result.json()
 
   return data.map(klinesRestDataAdaptor)

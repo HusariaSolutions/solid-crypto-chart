@@ -2,8 +2,9 @@ import { CandlestickStyleOptions, ChartOptions, CrosshairMode, DeepPartial, Line
 
 import { HistogramConfig } from './types'
 
-export const REST_URL = 'https://api.binance.com/api/v3/klines?'
-export const WS_URL = 'wss://stream.binance.com:9443/ws'
+export const DOMAIN_EXT = process.env.CI ? 'us' : 'com'
+export const REST_URL = `https://api.binance.${DOMAIN_EXT}/api/v3/klines?`
+export const WS_URL = `wss://stream.binance.${DOMAIN_EXT}:9443/ws`
 
 export const candleStickDefaultConfig: DeepPartial<CandlestickStyleOptions> = {
   upColor: '#00c176',
@@ -30,7 +31,7 @@ export const histogramDefaultConfig: HistogramConfig & { overlay: boolean } = {
 
 export const defaultChartLayout: DeepPartial<ChartOptions> = {
   layout: {
-    backgroundColor: '#ededed',
+    background: { color: '#ededed' },
     textColor: '#253248',
   },
   grid: {
