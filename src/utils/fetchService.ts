@@ -8,6 +8,7 @@ export const fetchKlinesRestData = async (symbol: string, interval: CryptoChartI
   const result = await fetch(`${REST_URL}symbol=${symbol}&interval=${interval}`, {
     headers: { 'Content-Type': 'application/json' },
   })
+  console.log('🚀 ~ file: fetchService.ts:12 ~ fetchKlinesRestData ~ result:', JSON.stringify(result, null, 3))
   const data: KlinesRestData[] = await result.json()
 
   return data.map(klinesRestDataAdaptor)
