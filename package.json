@@ -1,6 +1,6 @@
 {
   "name": "@husaria-solutions/solid-crypto-chart",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Husaria Solutions",
   "license": "MIT",
   "description": "Crypto chart for SolidJS using Binance API",
@@ -28,22 +28,22 @@
     "dist"
   ],
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@types/jest": "^28.1.4",
-    "jest-canvas-mock": "^2.4.0",
-    "jest-environment-jsdom": "^28.1.2",
-    "node-fetch": "^3.2.6",
+    "@solidjs/testing-library": "^0.8.5",
+    "@testing-library/jest-dom": "^6.1.6",
+    "@types/jest": "^29.5.11",
+    "jest-canvas-mock": "^2.5.2",
+    "jest-environment-jsdom": "^29.7.0",
+    "node-fetch": "^3.3.2",
     "resize-observer-polyfill": "^1.5.1",
     "solid-jest": "^0.2.0",
-    "ts-jest": "^28.0.5",
-    "typescript": "^4.3.2"
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
-    "lightweight-charts": "^3.8.0",
-    "rollup": "^2.75.7",
-    "rollup-preset-solid": "^1.4.0",
-    "solid-js": "^1.4.6",
-    "solid-testing-library": "^0.3.0"
+    "lightweight-charts": "^4.1.1",
+    "rollup": "^4.9.1",
+    "rollup-preset-solid": "^2.0.1",
+    "solid-js": "^1.8.7"
   },
   "bugs": {
     "url": "https://github.com/HusariaSolutions/solid-crypto-chart/issues"

@@ -1,4 +1,4 @@
-import { cleanup, render, screen } from 'solid-testing-library'
+import { cleanup, render, screen } from '@solidjs/testing-library'
 
 import { CryptoChart } from '../src/index'
 

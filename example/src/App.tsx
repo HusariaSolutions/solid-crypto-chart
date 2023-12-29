@@ -4,7 +4,7 @@ import { CryptoChart } from '../../src/index'
 import './index.css'
 
 function App() {
-  const [toggle, setToggle] = createSignal(false)
+  const [toggle, setToggle] = createSignal(true)
 
   return (
     <>
